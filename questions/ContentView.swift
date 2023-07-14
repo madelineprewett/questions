@@ -9,13 +9,39 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+       
+            
+            NavigationStack {
+                ZStack {
+                    Color(.systemBlue)
+                        .ignoresSafeArea()
+                    VStack {
+                        Text("Quiz about Madeline")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                        VStack {
+                            NavigationLink(destination: QuestionOne()) {
+                                Text("Begin")
+                                    .foregroundColor(Color.yellow)
+                              .fontWeight(.bold)
+                        }
+                        
+                    }
+                   
+                    
+                   
+                
+                
+                
+                
+               
+                }
+            }
+
         }
-        .padding()
+        
+        
     }
 }
 
