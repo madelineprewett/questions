@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40395F8E2A63B54000709922 /* QuestionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40395F8D2A63B54000709922 /* QuestionTwo.swift */; };
 		BDDEFF972A61C0430045C516 /* QuestionOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDEFF962A61C0430045C516 /* QuestionOne.swift */; };
 		BDF1885A2A61BE4300E3345B /* questionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF188592A61BE4300E3345B /* questionsApp.swift */; };
 		BDF1885C2A61BE4300E3345B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1885B2A61BE4300E3345B /* ContentView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40395F8D2A63B54000709922 /* QuestionTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTwo.swift; sourceTree = "<group>"; };
 		BDDEFF962A61C0430045C516 /* QuestionOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionOne.swift; sourceTree = "<group>"; };
 		BDF188562A61BE4300E3345B /* questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = questions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF188592A61BE4300E3345B /* questionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionsApp.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				BDDEFF962A61C0430045C516 /* QuestionOne.swift */,
+				40395F8D2A63B54000709922 /* QuestionTwo.swift */,
 				BDF188592A61BE4300E3345B /* questionsApp.swift */,
 				BDF1885B2A61BE4300E3345B /* ContentView.swift */,
 				BDF1885D2A61BE4500E3345B /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			files = (
 				BDF1885C2A61BE4300E3345B /* ContentView.swift in Sources */,
 				BDDEFF972A61C0430045C516 /* QuestionOne.swift in Sources */,
+				40395F8E2A63B54000709922 /* QuestionTwo.swift in Sources */,
 				BDF1885A2A61BE4300E3345B /* questionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

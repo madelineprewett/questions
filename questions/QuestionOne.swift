@@ -15,7 +15,7 @@ struct QuestionOne: View {
        
             
            
-            ZStack {
+        ZStack {
                 Color(.systemYellow)
                     .ignoresSafeArea()
                 Rectangle()
@@ -56,8 +56,23 @@ struct QuestionOne: View {
                     
                     
                     
-          
+                    Button("Next") {
+                        kouign = "YAYY CORRECT 😋"
+                    }
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                    .buttonStyle(.borderedProminent)
+                    .tint(.green)
                 
+                    
+                    NavigationLink(destination: QuestionTwo()) {
+                        Text("nexttt")
+                            .font(.title)
+                            .fontWeight(.heavy)
+                            .foregroundColor(Color.black)
+
+                    }
+
             }//vstack
             
           //  .cornerRadius(0.05)
@@ -65,9 +80,10 @@ struct QuestionOne: View {
             
             
 
-        }//vstack
+        }//zstack
     
-        
+   
+       
     }
 }
 
